@@ -1,0 +1,325 @@
+/*******************
+    - Captions -
+*******************/
+
+/* Big */
+.caption.big_blue {
+	background-color:#009bcd; 
+	background-image:-webkit-gradient(linear,50% 0%,50% 100%,color-stop(0%,#00c6e4),color-stop(100%,#0063a8)); 
+	background-image:-webkit-linear-gradient(#00c6e4,#0063a8); 
+	background-image:-moz-linear-gradient(#00c6e4,#0063a8);
+	background-image:linear-gradient(#00c6e4,#0063a8); 
+	-webkit-box-shadow:0 1px 0 0 rgba(255,255,255,0.7) inset, 3px 3px 5px rgba(0,0,0,0.3); 
+	   -moz-box-shadow:0 1px 0 0 rgba(255,255,255,0.7) inset, 3px 3px 5px rgba(0,0,0,0.3); 
+			box-shadow:0 1px 0 0 rgba(255,255,255,0.7) inset, 3px 3px 5px rgba(0,0,0,0.3);
+	padding:8px 15px 3px; 
+	color:#FFF; 
+	font-family:'BebasNeueRegular', sans; 
+	font-weight:normal;
+	font-size:50px; 
+	line-height:50px;
+	-moz-text-shadow:0px -1px rgba(10,60,109,0.8); 
+		 text-shadow:0px -1px rgba(10,60,109,0.8);
+}
+
+.caption.big_orange {
+	background-color:#ffad22; 
+	background-image:-webkit-gradient(linear,50% 0%,50% 100%,color-stop(0%,#ffc53e),color-stop(100%,#f38a02)); 
+	background-image:-webkit-linear-gradient(#ffc53e,#f38a02); 
+	background-image:-moz-linear-gradient(#ffc53e,#f38a02);
+	background-image:linear-gradient(#ffc53e,#f38a02); 
+	-webkit-box-shadow:0 1px 0 0 rgba(255,255,255,0.7) inset, 3px 3px 5px rgba(0,0,0,0.3); 
+	   -moz-box-shadow:0 1px 0 0 rgba(255,255,255,0.7) inset, 3px 3px 5px rgba(0,0,0,0.3); 
+			box-shadow:0 1px 0 0 rgba(255,255,255,0.7) inset, 3px 3px 5px rgba(0,0,0,0.3);
+	padding:8px 15px 3px; 
+	color:#FFF; 
+	font-family:'BebasNeueRegular', sans;
+	font-weight:normal; 
+	font-size:50px; 
+	line-height:50px;
+	-moz-text-shadow:0px -1px rgba(223,127,3,0.8); 
+		 text-shadow:0px -1px rgba(223,127,3,0.8);	
+}
+
+.caption.big_green {
+	background-color:#8fd400; 
+	background-image:-webkit-gradient(linear,50% 0%,50% 100%,color-stop(0%,#abf70e),color-stop(100%,#8fd400)); 
+	background-image:-webkit-linear-gradient(#abf70e,#8fd400); 
+	background-image:-moz-linear-gradient(#abf70e,#8fd400);
+	background-image:linear-gradient(#abf70e,#8fd400); 
+	-webkit-box-shadow:0 1px 0 0 rgba(255,255,255,0.7) inset, 3px 3px 5px rgba(0,0,0,0.3); 
+	   -moz-box-shadow:0 1px 0 0 rgba(255,255,255,0.7) inset, 3px 3px 5px rgba(0,0,0,0.3); 
+			box-shadow:0 1px 0 0 rgba(255,255,255,0.7) inset, 3px 3px 5px rgba(0,0,0,0.3);
+	padding:8px 15px 3px; 
+	color:#FFF; 
+	font-family:'BebasNeueRegular', sans; 
+	font-weight:normal;
+	font-size:50px; 
+	line-height:50px;
+	-moz-text-shadow:0px -1px rgba(132,196,0,0.8); 
+		 text-shadow:0px -1px rgba(132,196,0,0.8);	
+}
+
+.caption.big_fat {
+	position:absolute; 
+	color:#000; 
+	text-shadow:none; 
+	font-weight:800; 
+	font-size:48px; 
+	line-height:48px; 
+	font-family:'BebasNeueRegular', sans; 
+	margin:0px; 
+	border-width:0px; 
+	border-style:none; 
+	white-space:nowrap;		
+}
+
+.caption.big_fat_white {
+	position:absolute; 
+	color:#fff; 
+	text-shadow:none; 
+	font-weight:800; 
+	font-size:48px; 
+	line-height:48px; 
+	font-family:'BebasNeueRegular', sans; 
+	margin:0px; 
+	border-width:0px; 
+	border-style:none; 
+	white-space:nowrap;		
+}
+
+.caption.big_white_text {
+	color:#FFF; 
+	font-family:'BebasNeueRegular', sans;
+	font-weight:normal;
+	font-size:48px; 
+	line-height:48px;
+	text-shadow:1px 1px 1px rgba(0,0,0,0.2);
+}
+
+.caption.big_red_text {
+	color:#6b2c47; 
+	font-family:'BebasNeueRegular', sans;
+	font-weight:normal;
+	font-size:50px;
+	line-height:50px;
+}
+
+.caption.large_white_text {
+	color:#FFF; 
+	font-family:'BebasNeueRegular', sans;
+	font-weight:normal;
+	font-size:60px; 
+	line-height:60px;
+}
+
+.caption.larger_white_text {
+	color:#FFF; 
+	font-family:'BebasNeueRegular', sans;
+	font-weight:normal;
+	font-size:54px; 
+	line-height:54px;
+	text-shadow:0px -1px rgba(0,0,0,0.2);
+}
+
+.caption.very_big_grey {
+	font-family:'BebasNeueRegular', sans; 
+	font-weight:normal;
+	font-size:48px;
+	line-height:48px;
+	color:#fff;
+	background-color:#7e8e96;
+	padding:3px 4px 0px 4px;	
+}
+
+/* Medium */
+.caption.medium_black {
+	background-color:#000;
+	box-shadow:3px 3px 5px rgba(0,0,0,0.3);
+	padding:8px 12px 3px; 
+	color:#FFF; 
+	font-family:'BebasNeueRegular', sans;
+	font-weight:normal; 
+	font-size:28px;
+	line-height:28px;
+}
+
+.caption.medium_white {
+	background-color:#FFF;
+	box-shadow:3px 3px 5px rgba(0,0,0,0.3);
+	padding:8px 12px 3px; 
+	color:#000; 
+	font-family:'BebasNeueRegular', sans; 
+	font-weight:normal;
+	font-size:28px;
+	line-height:28px;
+}
+
+.caption.medium_white2 {
+	background-color:#FFF;
+	padding:0px 1px; 
+	color:#000; 
+	font-family:'BebasNeueRegular', sans; 
+	font-weight:normal;
+	font-size:28px;
+	line-height:20px;
+}
+
+.caption.medium_red_radius {
+	padding:8px 15px 4px; 
+	color:#FFF;
+	font-family:'BebasNeueRegular', sans; 
+	font-weight:normal;
+	font-size:28px;
+	line-height:28px;
+	background-color:#990000; 
+	-webkit-border-radius:5px; 
+	   -moz-border-radius:5px; 
+			border-radius:5px;
+}
+
+.caption.medium_fat {
+	position:absolute; 
+	color:#000; 
+	text-shadow:none; 
+	font-weight:800; 
+	font-size:24px; 
+	line-height:20px; 
+	font-family:'BebasNeueRegular', sans; 
+	margin:0px; 
+	border-width:0px; 
+	border-style:none; 
+	white-space:nowrap;		
+}
+
+.caption.medium_fat_white {
+	position:absolute; 
+	color:#fff; 
+	text-shadow:none; 
+	font-weight:800; 
+	font-size:24px; 
+	line-height:20px; 
+	font-family:'BebasNeueRegular', sans; 
+	margin:0px; 
+	border-width:0px; 
+	border-style:none; 
+	white-space:nowrap;		
+}
+
+.caption.medium_white_text {
+	color:#FFF; 
+	font-family:'BebasNeueRegular', sans; 
+	font-weight:normal;
+	font-size:20px;
+	line-height:20px;
+}
+
+.caption.medium_black_smaller {
+	font-family:'BebasNeueRegular', sans; 
+	font-weight:normal;
+	font-size:20px;
+	line-height:20px;
+	color:#FFF;
+	background-color:#000;	
+	padding:3px 4px 1px 4px; 	
+	-webkit-box-shadow:3px 3px 5px rgba(0,0,0,0.3);
+	   -moz-box-shadow:3px 3px 5px rgba(0,0,0,0.3);
+			box-shadow:3px 3px 5px rgba(0,0,0,0.3);	
+}
+
+/* Small */
+.caption.small_black {
+	padding:10px 15px;
+	color:#EEE; 
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size:12px;
+	line-height:18px;
+	background-color:#000;
+	background-color:rgba(0,0,0,0.6);
+}
+
+.caption.small_white {
+	font-weight:bold; 
+	font-size:14px; 
+	line-height:20px; 
+	font-family:Arial; 
+	white-space:nowrap;
+	color:#000;
+	background-color:#fff;
+	padding:4px 8px;
+}
+
+.caption.small_white_radius {
+	padding:6px 15px 5px;
+	color:#354160;
+	font-family:'BebasNeueRegular', sans; 
+	font-weight:normal;
+	font-size:18px;
+	line-height:18px;
+	background-color:#FFF; 
+	-webkit-border-radius:5px; 
+	   -moz-border-radius:5px; 
+			border-radius:5px;
+}
+
+/* Other */
+.caption.bottom_black {
+	width:100%;
+	bottom:0;
+	padding:15px 20px;	
+	background:rgba(0,0,0,0.6) url(banner-rotator/caption-border.gif) repeat-x top left;
+	color:#EEE;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:18px;
+}
+
+.caption.bottom_black h3 {
+	color:#FFF;
+	font-family:'BebasNeueRegular', sans; 
+	font-weight:normal;
+	font-size:28px;
+	line-height:30px;	
+	font-weight:normal;
+}
+
+.caption.left_black {
+	width:220px;
+	height:100%;
+	padding:40px;
+	background:rgba(0,0,0,0.6);
+	color:#999;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size:12px;
+	line-height:18px;
+	-moz-text-shadow:0px 1px #000; 
+		 text-shadow:0px 1px #000;
+	white-space:normal !important;
+}
+
+.caption.left_black h3 {
+	color:#DDD;
+	font-size:24px;
+	font-family:'BebasNeueRegular', sans;
+	font-weight:normal;
+	line-height:30px;
+	font-weight:normal;
+	-moz-text-shadow:0px 1px #000;
+		 text-shadow:0px 1px #000;
+}
+
+/* To change the font, visit FontSquirell:http://www.fontsquirrel.com/fontface */
+@font-face {				
+	font-family:"BebasNeueRegular";
+	src:url("../fonts/BebasNeue-webfont.eot");
+	src:url("../fonts/BebasNeue-webfont.eot?#iefix") format("eot"),
+		url("../fonts/BebasNeue-webfont.woff") format("woff"),
+		url("../fonts/BebasNeue-webfont.ttf") format("truetype"),
+		url("../fonts/BebasNeue-webfont.svg#webfontfuvdSzbb") format("svg");
+	font-weight:normal;
+	font-style:normal;			
+}
+
+

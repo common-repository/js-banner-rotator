@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fields>	
+	<fieldset name="general" label="General Settings">
+		<field name="currentItem"
+			   type="text"
+			   default="1"
+			   label="Current Slide"
+			   description="Change it if you want to start from a different slide then 1">
+		</field>
+		<field name="delay"
+			   type="text"
+			   default="5000"
+			   label="Delay"
+			   unit="ms"
+			   description="The global time delay for image rotation">
+		</field>		
+		<field name="lazyLoad"
+			   type="checkbox"
+			   default="false"
+			   label="Lazy Load"
+			   description="The lazy load means that the images will be loaded by demand, it speeds the loading of the slider.">
+		</field>	
+		<field name="touchEnabled"
+			   type="checkbox"
+			   default="true"
+			   label="Touch Enabled"
+			   description="Enable swipe function on touch devices">
+		</field>
+		<field name="useWpml"
+			   type="checkbox"
+			   default="false"
+			   label="Multi Language (WPML)"
+			   description="Use the slide as mutli language - show multi language controls across the slider. This available only when wpml plugin exists">
+		</field>
+		<field type="hr"></field>		
+		<field name="pauseOnHover"
+			   type="checkbox"
+			   default="false"
+			   label="Pause On Hover"
+			   description="Pause slider timer on mouse hover">
+		</field>				
+	</fieldset>
+	<fieldset name="googlefonts" label="Google Font Settings">
+		<field name="loadGoogleFont"
+			   type="checkbox"
+			   default="false"
+			   label="Load Google Font"
+			   description="Enable/disable Google font">
+		</field>
+		<field name="googleFont"
+			   type="text"
+			   label="Google Font"
+			   class="text-sidebar-long"
+			   default="Open+Sans:400,800,300,600"
+			   description="The google font family to load"></field>
+		<field type="control"
+			   ctype="enable"
+			   parent="loadGoogleFont"
+			   child="googleFont"
+			   value="true"
+		   ></field>		
+	</fieldset>	
+	<fieldset name="position" label="Position">
+		<field name="position"
+			   type="list"
+			   default="center"
+			   label="Position On The Page"
+			   description="The position of the slider on the page, (float:left, float:right, margin:0px auto;)">
+				  <option value="left" text="Left"></option>
+				  <option value="center" text="Center"></option>
+				  <option value="right" text="Right"></option>
+		</field>
+		<field name="marginTop"
+			   type="text"
+			   label="Margin Top"
+			   default="0"
+			   unit="px"
+			   description="The top margin of the slider wrapper div"></field>
+		<field name="marginBottom"
+			   type="text"
+			   label="Margin Bottom"
+			   default="0"
+			   unit="px"
+			   description="The bottom margin of the slider wrapper div"></field>
+		<field name="marginLeft"
+			   type="text"
+			   label="Margin Left"
+			   default="0"
+			   unit="px"
+			   description="The left margin of the slider wrapper div"></field>
+		<field name="marginRight"
+			   type="text"
+			   label="Margin Right"
+			   default="0"
+			   unit="px"
+			   description="The right margin of the slider wrapper div"></field>
+		<field type="control"
+			   ctype="disable"
+			   parent="position"
+			   child="marginLeft"
+			   value="center"></field>
+		<field type="control"
+			   ctype="disable"
+			   parent="position"
+			   child="marginRight"
+			   value="center"></field>
+	</fieldset>
+	<fieldset name="troubleshooting" label="Troubleshooting">
+		<field name="jqueryNoconflict"
+			   type="list"
+			   default="on"
+			   label="JQuery No Conflict Mode"
+			   description="Turns on / off jquery noconflict mode. You can play with this option when you have some javascript conflicts.">
+				  <option value="on" text="On"></option>
+				  <option value="off" text="Off"></option>
+		</field>
+		<field name="jsToBody"
+			   type="checkbox"
+			   default="false"
+			   label="Put JS Includes To Body"
+			   description="Putting the js to body (in addition to head) is good for fixing some javascript conflicts of type: TypeError: jQuery('#banner_rotator_1_1').show().bannerRotator is not a function">
+		</field>
+		<field name="outputType"
+			   type="list"
+			   default="none"
+			   label="Output Filters Protection"
+			   description="Activate a protection against wordpress output filters that adds html blocks to the shortcode output like P and BR">
+				  <option value="none" text="None"></option>
+				  <option value="compress" text="By Compressing Output"></option>
+				  <option value="echo" text="By Echo Output"></option>
+		</field>
+	</fieldset>
+</fields>
